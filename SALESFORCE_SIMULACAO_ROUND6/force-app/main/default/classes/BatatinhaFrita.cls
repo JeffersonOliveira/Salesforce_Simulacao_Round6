@@ -16,8 +16,10 @@ public class BatatinhaFrita {
         }
         update jogadores;
         
-        update new Partida__c(Id = idPartida, TerminoPartida__c = System.now());
+        Partida__c partida = new Partida__c(Id = idPartida, TerminoPartida__c = System.now());
+        //update new Partida__c(Id = idPartida, TerminoPartida__c = System.now());
        
+        update partida;
     }
        
 }
