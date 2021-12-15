@@ -1,4 +1,0 @@
-({
-  click: function (cmp) {
-  }
-});
