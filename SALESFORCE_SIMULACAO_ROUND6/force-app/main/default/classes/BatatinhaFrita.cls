@@ -11,11 +11,12 @@ public class BatatinhaFrita {
         for(Integer i = 0 ; i < mortes ; i++) {
             
             jogador__c jogador = new Jogador__c();
-            jodador.Id = Participantes[i].Jogador__c;
+            jogador.Id = Participantes[i].Jogador__c;
             jogador.Eliminado__c = true;
             jogadores.add(jogador);
             
         }
+        
 
         update jogadores;
         
